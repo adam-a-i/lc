@@ -20,6 +20,7 @@ class Solution(object):
                 if not dfs(pre):
                     return False
             visiting.remove(node)
+            graph[course] =[]
             return True
         visiting = set()
 
